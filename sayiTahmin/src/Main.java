@@ -7,7 +7,7 @@ public class Main {
 
         Random rand = new Random();
         int number = rand.nextInt(100);
-        System.out.println(number);
+        //System.out.println(number);
 
         Scanner input = new Scanner(System.in);
         int right = 0;
@@ -16,7 +16,7 @@ public class Main {
 
         boolean isWin = false;
         boolean isWrong = false;
-        
+
         while(right < 5){
             System.out.print("0-100 arası bir sayı giriniz : ");
             int selected = input.nextInt();
